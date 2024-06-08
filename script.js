@@ -1,3 +1,8 @@
+
+// @Project: NewsPaper
+// @Author: Sazad Ahemad
+// @url: https://www.github.com/connect2sazad
+
 document.addEventListener('DOMContentLoaded', function() {
     const listContainer = document.getElementById('list-container');
     const mainTitle = document.getElementById('main-title');
@@ -49,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="card-body">
                                 <h5 class="card-title">${contentItem.heading}</h5>
                                 <p class="card-text">${contentItem.content}</p>
-                                <p class="card-text"><small class="text-muted">${contentItem.date} at ${contentItem.time}</small></p>
+                                <p class="card-text"><small class="text-muted">${contentItem.day} at ${contentItem.time}</small></p>
                             </div>
                         </div>
                     </div>

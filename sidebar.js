@@ -1,3 +1,8 @@
+
+// @Project: NewsPaper
+// @Author: Sazad Ahemad
+// @url: https://www.github.com/connect2sazad
+
 const sidebar = [
     {
         selector: "content1",
